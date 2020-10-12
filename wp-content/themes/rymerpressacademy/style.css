@@ -1,0 +1,133 @@
+/*  
+Theme Name: Rymer Press Academy
+Author: Helvin Rymer
+Version: 1.0
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+/* Quick Use Classes */
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.redHr {
+  height: 2.5px;
+  background-color: #ef233c;
+  border-radius: 2px;
+}
+
+/* Menus */
+.deptMenu .page_item a {
+  font-family: "Roboto", sans-serif;
+}
+.deptMenu .page_item {
+  font-size: 19px;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: "Roboto", sans-serif;
+  overflow-y: hidden;
+}
+.deptMenu {
+  list-style-type: none;
+  padding: 2.5%;
+}
+.menu ul,
+.menu li {
+  list-style-type: none;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+nav-column {
+  list-style-type: none;
+}
+
+/* Pagination */
+.page-numbers,
+.page-numbers a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #08090a;
+}
+
+.page-numbers i {
+  font-size: 20px;
+  color: #08090a;
+}
+
+/* Content */
+.theContent ul {
+  margin: 3.5% 0;
+}
+
+.theContent li {
+  margin: 1.5% 0;
+}
+
+.theContent ul,
+.theContent li {
+  list-style-type: square;
+  font-size: 18px;
+}
+.theContent video {
+  border-radius: 5px;
+  box-shadow: -1px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Typography */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a,
+p,
+span {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hero Carousel */
+.carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Global High Priority Stuff - Keep to bottom of sheet, before Media Querys */
+body {
+  overflow: hidden;
+}
+html {
+  overflow-x: hidden;
+  background-color: #000000;
+}
